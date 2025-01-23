@@ -1,0 +1,105 @@
+.dashboard {
+    background-color: #1a1d21;
+    min-height: 100vh;
+    color: white;
+}
+
+.modal-container .modal-content {
+    background-color: #1a1d21;
+}
+
+.header {
+    border-bottom: 1px solid #2d3748;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-controls {
+    color: #a0aec0;
+}
+
+.stats-card {
+    background-color: #2d3748 !important;
+    border: none !important;
+    margin-bottom: 1rem;
+}
+
+.stats-card.darker {
+    background-color: #1a1d21 !important;
+}
+
+.stats-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.spinner-container{
+    background-color: #1a1d21;
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center'
+}
+
+.stats-title {
+    color: #a0aec0;
+    font-size: 0.875rem;
+}
+
+.custom-table {
+    background-color: #1a1d21;
+    color: #a0aec0;
+  }
+  
+  .custom-table thead th {
+    border-bottom: 1px solid #2d3748;
+    color: #a0aec0;
+    font-weight: normal;
+    padding: 1rem;
+  }
+  
+  .custom-table td {
+    border-bottom: 1px solid #2d3748;
+    padding: 1rem;
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .icon-list{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-icons svg {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    padding-inline: 1rem;
+  }
+
+  .white-text{
+    color: white;
+  }
+  
+  .eye-icon { color: #48bb78; }
+  .edit-icon { color: #4299e1; }
+  .delete-icon { color: #f56565; }
+  
+  .action-disabled {
+    pointer-events: none !important;
+    opacity: 0.5 !important;
+  }
+  
+  .user-mode .action-icons svg {
+    cursor: not-allowed !important;
+    opacity: 0.5 !important;
+  }
+  
+  .form-switch {
+    color: white;
+  }

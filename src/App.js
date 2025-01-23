@@ -1,13 +1,14 @@
 import './App.css';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
+import InventoryDashboard from './components/InventoryDashboard';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AdminView from './views/AdminView';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Inventory Management System</h1>
-      <AdminView />
-    </div>
+    <Provider store={store}>
+      <InventoryDashboard />
+    </Provider>
   );
 }
 
